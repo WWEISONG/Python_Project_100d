@@ -7,17 +7,17 @@ class Point(object):
         self.x = x
         self.y = y
 
-    def MoveTo(self, x, y):
+    def move_to(self, x, y):
         """移动到指定位置"""
         self.x = x
         self.y = y
 
-    def MoveBy(self, dx, dy):
+    def move_by(self, dx, dy):
         """移动指定的增量"""
         self.x += dx
         self.y += dy
 
-    def DistanceTo(self, other):
+    def dis_to(self, other):
         """计算与另外一个点的距离"""
         dx = self.x - other.x
         dy = self.y - other.y
@@ -27,9 +27,9 @@ def main():
     p2 = Point()
     print(p1)
     print(p2)
-    p2.MoveBy(-1, 2)
+    p2.move_by(-1, 2)
     print(p2)
-    print(p1.DistanceTo(p2))
+    print(p1.dis_to(p2))
 
 if __name__ == '__main__':
     main()
