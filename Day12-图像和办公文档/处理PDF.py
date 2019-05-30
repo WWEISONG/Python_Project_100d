@@ -12,7 +12,9 @@ PDFminer是一个从PDF文档中提取信息的工具，与其他pdf相关的
 PDF转换器，可以将PDF文件转换成其他文本格式(如txt,HTML)，它有
 一个可扩展的PDF解析器，可以用于其他目的而不是文本分析
 '''
-
+'''
+这个有点难！多看看！内容也比较多
+'''
 text_path = r'words_words.pdf'
 
 def parse():
@@ -20,9 +22,11 @@ def parse():
     fp = open(text_path, 'rb')
     # 用文件对象创建一个PDF文档分析器
     parser = PDFParser(fp)
-    # 创建一个空的pdf文档
+    # 创建一个pdf文档对象
     doc = PDFDocument()
     # 连接分析器与文档对象
+    # 建立连接之后呢，我们就可以通过分析器来访问原先的pdf了
+    # 而新建的pdf doc我的理解是相当于原先的pdf的镜像
     parser.set_document(doc)
     doc.set_parser(parser)
 
