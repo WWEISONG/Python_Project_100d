@@ -38,7 +38,7 @@ class Ball(object):
         """移动"""
         self.x += self.sx
         self.y += self.sy
-        # 触碰边界
+        # 小球触碰边界 通过x y坐标来判断
         if self.x - self.radius <= 0 or \
                 self.x + self.radius >= screen.get_width():
             self.sx = -self.sx
@@ -48,6 +48,7 @@ class Ball(object):
 
     def eat(self, other):
         """吃其他球"""
+        # 两个球都要存活 并且呢两个球不是同一个 这是吃掉的条件
         if self.alive and other.alive and self != other:
             dx, dy = self.x - other.x, self.y - other.y
             distance = sqrt(dx ** 2 + dy ** 2)
@@ -75,10 +76,6 @@ def main():
     screen.fill((242, 242, 242))
     # 绘制一个圆圈，参数分别是位置(屏幕)、颜色、圆心位置、半径、是否填充0填，1不填
     pygame.draw.circle(screen, (255, 0, 0), (100, 100), 30, 0)
-    # 通过指定的文件名加载图像
-    ball_image = pygame.image.load('ball.png')
-    # 在窗口上渲染图像
-    screen.blit(ball_image, (50, 50))
     # 刷新当前窗口(渲染窗口将绘制的图像呈现出来
     pygame.display.flip()
     running = True

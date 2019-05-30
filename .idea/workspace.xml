@@ -5,13 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff3f3bb2-af57-41eb-9ffb-2631bc2fbb08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day06-面向对象进阶/练习01-工资结算.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day06-面向对象进阶/进阶知识.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day07-GUI和游戏/GUI-Tkinter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day07-GUI和游戏/Pygame-大球吃小球.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day08-文件和异常/异常处理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day08-文件和异常/文件处理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day09-正则表达式/正则表达式.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day09-正则表达式/练习01-匹配QQ.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day09-正则表达式/练习02-提取手机号.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day09-正则表达式/练习03-拆分长字符串.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day10-进程和线程/多线程.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day10-进程和线程/多进程.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day10-进程和线程/应用场景01-多进程.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day11-网络编程/request请求json数据.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day11-网络编程/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day11-网络编程/套接字-客户端.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day11-网络编程/套接字-服务器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day11-网络编程/网络应用开发-email.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day05-面向对象基础/类与对象.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day05-面向对象基础/类与对象.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day05-面向对象基础/练习02-移动点.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day05-面向对象基础/练习02-移动点.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day07-GUI和游戏/Pygame-大球吃小球.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day07-GUI和游戏/Pygame-大球吃小球.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,25 +31,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day07-GUI和游戏/GUI-Tkinter.py">
+        <entry file="file://$PROJECT_DIR$/Day11-网络编程/request请求json数据.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-484">
-              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state>
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day11-网络编程/套接字-服务器.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-66">
+              <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day07-GUI和游戏/Pygame-大球吃小球.py">
+        <entry file="file://$PROJECT_DIR$/Day11-网络编程/网络应用开发-email.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+            <state relative-caret-position="-264">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#24#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day11-网络编程/套接字-客户端.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-44">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day08-文件和异常/文件处理.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -89,13 +128,30 @@
         <option value="$PROJECT_DIR$/Day07-GUI和游戏/GUI-Tkinter.py" />
         <option value="$PROJECT_DIR$/Day07-GUI和游戏/Pygame模块.py" />
         <option value="$PROJECT_DIR$/Day07-GUI和游戏/Pygame-大球吃小球.py" />
+        <option value="$PROJECT_DIR$/Day08-文件和异常/文件处理.py" />
+        <option value="$PROJECT_DIR$/Day08-文件和异常/异常处理.py" />
+        <option value="$PROJECT_DIR$/正则表达式/基础知识.py" />
+        <option value="$PROJECT_DIR$/正则表达式/练习01-匹配QQ.py" />
+        <option value="$PROJECT_DIR$/正则表达式/练习02-提取手机号.py" />
+        <option value="$PROJECT_DIR$/正则表达式/正则表达式.py" />
+        <option value="$PROJECT_DIR$/正则表达式/练习03-拆分长字符串.py" />
+        <option value="$PROJECT_DIR$/Day10-进程和线程/多进程.py" />
+        <option value="$PROJECT_DIR$/Day10-进程和线程/多线程.py" />
+        <option value="$PROJECT_DIR$/Day10-进程和线程/应用场景01-多进程.py" />
+        <option value="$PROJECT_DIR$/Day11-网络编程/HTTP协议入门.md" />
+        <option value="$PROJECT_DIR$/Day11-网络编程/request请求json数据.py" />
+        <option value="$PROJECT_DIR$/Day11-网络编程/套接字.py" />
+        <option value="$PROJECT_DIR$/Day11-网络编程/套接字-服务器.py" />
+        <option value="$PROJECT_DIR$/Day11-网络编程/套接字-客户端.py" />
+        <option value="$PROJECT_DIR$/Day11-网络编程/网络应用开发-email.py" />
+        <option value="$PROJECT_DIR$/Day11-网络编程/网络应用开发-短信.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="552" />
-    <option name="y" value="22" />
-    <option name="width" value="1689" />
+    <option name="x" value="407" />
+    <option name="y" value="42" />
+    <option name="width" value="1690" />
     <option name="height" value="1103" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -113,11 +169,6 @@
               <item name="Python_Project_100d" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_Project_100d" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Python_Project_100d" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_Project_100d" type="462c0819:PsiDirectoryNode" />
-              <item name="Day07-GUI和游戏" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -128,12 +179,15 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/2019T1/2019T1/9021/ass/tangram.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Day11-网络编程" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\A_Hundred_project\Python_Project_100d\Day11-网络编程" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\A_Hundred_project\Python_Project_100d\Day03-循环结构\exercise02-gcd" />
     </key>
@@ -150,8 +204,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Pygame-大球吃小球">
-    <configuration name="练习01-工资结算" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.网络应用开发-email">
+    <configuration name="网络应用开发-email" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Project_100d" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,12 +213,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day06-面向对象进阶" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day11-网络编程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day06-面向对象进阶/练习01-工资结算.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day11-网络编程/网络应用开发-email.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,7 +227,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="练习02-移动点" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="多线程" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Project_100d" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,12 +235,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day05-面向对象" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day10-进程和线程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day05-面向对象/练习02-移动点.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day10-进程和线程/多线程.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,7 +249,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="GUI-Tkinter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="应用场景01-多进程" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Project_100d" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -203,12 +257,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day07-GUI和游戏" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day10-进程和线程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day07-GUI和游戏/GUI-Tkinter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day10-进程和线程/应用场景01-多进程.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,7 +271,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Pygame-大球吃小球" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="练习03-拆分长字符串" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Project_100d" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,12 +279,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day07-GUI和游戏" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/正则表达式" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day07-GUI和游戏/Pygame-大球吃小球.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/正则表达式/练习03-拆分长字符串.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -239,7 +293,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Pygame模块" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="多进程" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Project_100d" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -247,12 +301,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day07-GUI和游戏" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day10-进程和线程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\A_Hundred_project\Python_Project_100d\Day07-GUI和游戏\Pygame-大球吃小球.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day10-进程和线程/多进程.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="request请求json数据" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Project_100d" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day11-网络编程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day11-网络编程/request请求json数据.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -263,11 +339,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Pygame-大球吃小球" />
-        <item itemvalue="Python.Pygame模块" />
-        <item itemvalue="Python.GUI-Tkinter" />
-        <item itemvalue="Python.练习01-工资结算" />
-        <item itemvalue="Python.练习02-移动点" />
+        <item itemvalue="Python.网络应用开发-email" />
+        <item itemvalue="Python.request请求json数据" />
+        <item itemvalue="Python.应用场景01-多进程" />
+        <item itemvalue="Python.多线程" />
+        <item itemvalue="Python.练习03-拆分长字符串" />
       </list>
     </recent_temporary>
   </component>
@@ -282,19 +358,20 @@
       <option name="presentableId" value="Default" />
       <updated>1558959694060</updated>
       <workItem from="1558959704623" duration="5257000" />
-      <workItem from="1559016634382" duration="30918000" />
+      <workItem from="1559016634382" duration="32124000" />
+      <workItem from="1559105630533" duration="21181000" />
+      <workItem from="1559192639227" duration="15593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36175000" />
+    <option name="totallyTimeSpent" value="74155000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="270" y="0" width="1351" height="882" extended-state="0" />
-    <editor active="true" />
+    <frame x="238" y="29" width="1352" height="882" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13766435" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14760433" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32941177" />
@@ -304,7 +381,7 @@
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.07333333" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.34533334" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39970717" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -322,20 +399,24 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_Project_100d$exerciese01_convert_of_tempture.coverage" NAME="exerciese01-convert of tempture Coverage Results" MODIFIED="1558961255150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day02-数据类型" />
     <SUITE FILE_PATH="coverage/Python_Project_100d$exercise03_Max_and_Min.coverage" NAME="exercise03-Max_and_Min Coverage Results" MODIFIED="1559022762332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day04-基本数据结构" />
+    <SUITE FILE_PATH="coverage/Python_Project_100d$requestjson.coverage" NAME="request请求json数据 Coverage Results" MODIFIED="1559196474365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day11-网络编程" />
     <SUITE FILE_PATH="coverage/Python_Project_100d$1_.coverage" NAME="练习1-字符串 Coverage Results" MODIFIED="1559021280348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day04-基本数据结构" />
     <SUITE FILE_PATH="coverage/Python_Project_100d$Peiqi.coverage" NAME="Peiqi Coverage Results" MODIFIED="1558960021945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day_01" />
     <SUITE FILE_PATH="coverage/Python_Project_100d$exercise02_gcd_lcm.coverage" NAME="exercise02-gcd_lcm Coverage Results" MODIFIED="1558963587673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day03-循环结构" />
     <SUITE FILE_PATH="coverage/Python_Project_100d$GUI_Tkinter.coverage" NAME="GUI-Tkinter Coverage Results" MODIFIED="1559045339717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day07-GUI和游戏" />
-    <SUITE FILE_PATH="coverage/Python_Project_100d$Pygame_.coverage" NAME="Pygame-大球吃小球 Coverage Results" MODIFIED="1559050509237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day07-GUI和游戏" />
+    <SUITE FILE_PATH="coverage/Python_Project_100d$_email.coverage" NAME="网络应用开发-email Coverage Results" MODIFIED="1559215117722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day11-网络编程" />
+    <SUITE FILE_PATH="coverage/Python_Project_100d$Pygame_.coverage" NAME="Pygame-大球吃小球 Coverage Results" MODIFIED="1559050887797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day07-GUI和游戏" />
     <SUITE FILE_PATH="coverage/Python_Project_100d$Pygame.coverage" NAME="Pygame模块 Coverage Results" MODIFIED="1559049963954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day07-GUI和游戏" />
-    <SUITE FILE_PATH="coverage/Python_Project_100d$01_.coverage" NAME="练习01-工资结算 Coverage Results" MODIFIED="1559040332844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day06-面向对象进阶" />
+    <SUITE FILE_PATH="coverage/Python_Project_100d$01_.coverage" NAME="应用场景01-多进程 Coverage Results" MODIFIED="1559132622705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day10-进程和线程" />
+    <SUITE FILE_PATH="coverage/Python_Project_100d$01_QQ.coverage" NAME="练习01-匹配QQ Coverage Results" MODIFIED="1559113880614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/正则表达式" />
     <SUITE FILE_PATH="coverage/Python_Project_100d$exercise01_Compute_Cycle.coverage" NAME="exercise01-Compute Cycle Coverage Results" MODIFIED="1558961682237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day02-数据类型" />
-    <SUITE FILE_PATH="coverage/Python_Project_100d$02_.coverage" NAME="练习02-移动点 Coverage Results" MODIFIED="1559029387500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day05-面向对象" />
+    <SUITE FILE_PATH="coverage/Python_Project_100d$02_.coverage" NAME="练习02-提取手机号 Coverage Results" MODIFIED="1559123180101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/正则表达式" />
+    <SUITE FILE_PATH="coverage/Python_Project_100d$03_.coverage" NAME="练习03-拆分长字符串 Coverage Results" MODIFIED="1559123706222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/正则表达式" />
     <SUITE FILE_PATH="coverage/Python_Project_100d$lcm.coverage" NAME="lcm Coverage Results" MODIFIED="1558963271074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day03-循环结构/exercise02-gcd" />
     <SUITE FILE_PATH="coverage/Python_Project_100d$exercise01_isprime.coverage" NAME="exercise01-isprime Coverage Results" MODIFIED="1558962927606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day03-循环结构" />
     <SUITE FILE_PATH="coverage/Python_Project_100d$exercise03_judge_year.coverage" NAME="exercise03-judge year Coverage Results" MODIFIED="1558962137523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day02-数据类型" />
-    <SUITE FILE_PATH="coverage/Python_Project_100d$.coverage" NAME="字典 Coverage Results" MODIFIED="1559020435636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day04-基本数据结构" />
     <SUITE FILE_PATH="coverage/Python_Project_100d$exercise02_verification_code.coverage" NAME="exercise02-verification_code Coverage Results" MODIFIED="1559021875834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day04-基本数据结构" />
+    <SUITE FILE_PATH="coverage/Python_Project_100d$.coverage" NAME="多线程 Coverage Results" MODIFIED="1559130163719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day10-进程和线程" />
     <SUITE FILE_PATH="coverage/Python_Project_100d$04_.coverage" NAME="练习04-约瑟夫环 Coverage Results" MODIFIED="1559024513293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day04-基本数据结构" />
   </component>
   <component name="editorHistoryManager">
@@ -504,16 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day07-GUI和游戏/GUI-Tkinter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-484">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Anaconda/Lib/site-packages/matplotlib/backends/backend_tkagg.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -530,10 +601,185 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day07-GUI和游戏/Pygame-大球吃小球.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        <state relative-caret-position="110">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day07-GUI和游戏/GUI-Tkinter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-484">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day08-文件和异常/异常处理.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="500" column="8" selection-start-line="500" selection-start-column="8" selection-end-line="500" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day09-正则表达式/练习02-提取手机号.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day09-正则表达式/正则表达式.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day09-正则表达式/练习01-匹配QQ.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day09-正则表达式/练习03-拆分长字符串.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/Lib/multiprocessing/queues.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1671">
+          <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day10-进程和线程/多进程.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day10-进程和线程/应用场景01-多进程.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1166">
+          <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day10-进程和线程/多线程.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11-网络编程/HTTP协议入门.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="440">
+            <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11-网络编程/TCP_IP_UDP知识.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-239" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/Lib/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/Lib/site-packages/requests/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="892" column="36" lean-forward="true" selection-start-line="892" selection-start-column="36" selection-end-line="892" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-389">
+          <caret line="861" column="11" lean-forward="true" selection-start-line="861" selection-start-column="11" selection-end-line="861" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11-网络编程/request请求json数据.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day08-文件和异常/文件处理.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11-网络编程/套接字-客户端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11-网络编程/套接字-服务器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11-网络编程/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11-网络编程/网络应用开发-短信.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11-网络编程/网络应用开发-email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
