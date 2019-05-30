@@ -1,0 +1,17 @@
+COMP9020 19T1
+Week 4
+Equivalence and Order Relations
+
+Textbook (R & W) - Ch. 3, Sec. 3.4-3.5
+Ch. 11, Sec. 11.1-11.2
+
+Problem set 4
+
+Supplementary Exercises Ch. 3, Ch. 11 (R & W)
+
+Quiz 4 (due Monday week 5)
+
+1
+
+Equivalence Relations and Partitions
+
