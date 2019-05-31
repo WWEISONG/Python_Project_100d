@@ -18,6 +18,7 @@ class Thing(object):
         self.price = price
         self.weight = weight
 
+    # 方法属性化
     @property
     def value(self):
         """价格重量比"""
@@ -30,6 +31,11 @@ def input_thing():
 
 def greedy():
     """贪婪算法思想求解"""
+    # map(func, iterable....)
+    # map函数其功能是根据提供的函数对指定序列做映射，返回函数作用之后的结果
+    # 比如代码中的那个int()作用于输入的每一个元素，然后以本来的格式返回
+    # 举个例子：map(square, [1, 2, 3, 4]) 返回：[1, 4, 9, 16] 迭代器
+    # 但是你可以把它转成其他类型比如：list(map(square, [1, 2, 3, 4])) ---返回列表了
     max_weight, num_of_things = map(int, input().split())
     all_things = []
     for _ in range(num_of_things):
