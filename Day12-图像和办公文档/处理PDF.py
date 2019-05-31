@@ -20,7 +20,8 @@ text_path = r'words_words.pdf'
 def parse():
     '''解析PDF文本， 并保存到TXT文件中'''
     fp = open(text_path, 'rb')
-    # 用文件对象创建一个PDF文档分析器
+    # 用文件对象作为参数创建一个PDF文档分析器
+    # 用于解析PDF文件，从文件中获取数据
     parser = PDFParser(fp)
     # 创建一个pdf文档对象
     doc = PDFDocument()
@@ -52,14 +53,13 @@ def parse():
             # 接受该页面的LTPage对象
             layout = device.get_result()
             # 这里的layout是一个LTPage对象，里面存放着这个page解析出的各种对象
-            # 一般包括LTTextBox, LTFigure, LTImage, LTTextBoxHorizontal 等等
             # 想要获取文本就获得对象的text属性，
             for x in layout:
                 if (isinstance(x, LTTextBoxHorizontal)):
                     with open(r'new.txt', 'a') as f:
                         results = x.get_text()
                         print(results)
-                        f.write(results + "\n")
+                        f.write(results)
 
 if __name__ == '__main__':
     parse()
