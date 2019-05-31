@@ -82,7 +82,8 @@ def main():
     server.listen(512)
     print('服务器正在监听...')
     with open('img.jpg', 'rb') as f:
-        # 将二进制文件处理成base64编码再解码成字符串
+        # 将二进制文件处理成base64编码再解码成unicode编码的字符串
+        # 因为python内部对字符串的处理是unicode编码
         data = b64encode(f.read()).decode('utf-8')
     while True:
         client, addr = server.accept()
