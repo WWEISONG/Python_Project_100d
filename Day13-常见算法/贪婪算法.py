@@ -31,7 +31,7 @@ def input_thing():
 
 def greedy():
     """贪婪算法思想求解"""
-    # map(func, iterable....)
+    # map(func, iterable....) 跟filter有些类似(只不过filter是过滤作用)
     # map函数其功能是根据提供的函数对指定序列做映射，返回函数作用之后的结果
     # 比如代码中的那个int()作用于输入的每一个元素，然后以本来的格式返回
     # 举个例子：map(square, [1, 2, 3, 4]) 返回：[1, 4, 9, 16] 迭代器

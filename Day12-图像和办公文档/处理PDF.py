@@ -24,6 +24,7 @@ def parse():
     # 用于解析PDF文件，从文件中获取数据
     parser = PDFParser(fp)
     # 创建一个pdf文档对象
+    # 用于将数据存储到内存中
     doc = PDFDocument()
     # 连接分析器与文档对象
     # 建立连接之后呢，我们就可以通过分析器来访问原先的pdf了
