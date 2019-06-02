@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/Day05-面向对象基础/类与对象.py" line="17" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3f3bb2-af57-41eb-9ffb-2631bc2fbb08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day17-元编程和元类/ORM简单实现.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ff3f3bb2-af57-41eb-9ffb-2631bc2fbb08" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,8 +128,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="601" />
-    <option name="y" value="57" />
+    <option name="x" value="87" />
+    <option name="y" value="61" />
     <option name="width" value="1748" />
     <option name="height" value="1087" />
   </component>
@@ -151,11 +148,6 @@
             <path>
               <item name="Python_Project_100d" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_Project_100d" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python_Project_100d" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_Project_100d" type="462c0819:PsiDirectoryNode" />
-              <item name="Day17-元编程和元类" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python_Project_100d" type="b2602c69:ProjectViewProjectNode" />
@@ -397,16 +389,15 @@
       <workItem from="1559192639227" duration="25652000" />
       <workItem from="1559274697797" duration="21615000" />
       <workItem from="1559361957817" duration="19097000" />
-      <workItem from="1559456527748" duration="5753000" />
+      <workItem from="1559456527748" duration="6441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130679000" />
+    <option name="totallyTimeSpent" value="131367000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="481" y="46" width="1398" height="869" extended-state="0" />
-    <editor active="true" />
+    <frame x="70" y="49" width="1398" height="869" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15671642" />
