@@ -44,6 +44,8 @@ class IntegerField(Field):
 class ModelMetaclass(type):
     """自定义元类"""
     # 注意有一个点，attrs这个字典包括类的属性和方法
+    # __new__是在__init__之前被调用的特殊方法
+    # __new__是用来创建对象并返回之的方法
     def __new__(cls, name, bases, attrs):
         if name == 'Model':
             return type.__new__(cls, name, bases, attrs)
@@ -57,6 +59,7 @@ class ModelMetaclass(type):
                 mappings[k] = v
 
         # 从类属性中删除该Field属性，否则，实例的属性会遮盖类的同名属性，运行错误
+        # --------- 这部分没看懂 -----
         for k in mappings.keys():
             attrs.pop(k)
 
