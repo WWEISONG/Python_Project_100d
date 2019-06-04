@@ -90,8 +90,41 @@ def querry():
     finally:
         con.close()
 
+# 分页查询 LIMIT
+class Emp(object):
+
+    def __init__(self, no, name, job, sal):
+        self.no = no
+        self.name = name
+        self.job = job
+        self.sal = sal
+
+    def __str__(self):
+        return f'\n编号：{self.no}\n姓名：{self.name}\n职位：{self.job}\n月薪：{self.sal}\n'
+
+def querry_page():
+    page = int(input('页码：'))
+    size = int(input('大小：'))
+    con = pymysql.connect(host='localhost', port=3306,
+                          database='hrs', charset='utf8',
+                          user='root', password='ShermanLemon0301')
+    try:
+        with con.cursor() as cursor:
+            # limit--分页查询
+            cursor.execute(
+                'select eno as no, ename as name, job, sal from tb_emp limit %s, %s',
+                ((page -1) * size, size)
+            )
+        results = cursor.fetchall()
+        for emp_tuple in results:
+            # 拿到的是元组，可以直接作为参数那创建对象！nice!
+            emp = Emp(*emp_tuple)
+            print(emp)
+    finally:
+        con.close()
+
 if __name__ == '__main__':
-    querry()
+    querry_page()
 
 
 
