@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/Day05-面向对象基础/类与对象.py" line="17" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff3f3bb2-af57-41eb-9ffb-2631bc2fbb08" name="Default Changelist" comment="" />
+    <list default="true" id="ff3f3bb2-af57-41eb-9ffb-2631bc2fbb08" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,47 +15,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day13-常见算法/动态规划.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day13-常见算法/回溯算法.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1804">
-              <caret line="82" column="31" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day14-类与类的关系/扑克游戏.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
-              <caret line="110" selection-start-line="110" selection-end-line="110" />
-              <folding>
-                <element signature="e#102#131#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day17-元编程和元类/元类和元编程.md">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day18-数据库和python/基础知识.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor />
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day17-元编程和元类/ORM简单实现.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="96" column="37" lean-forward="true" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -73,8 +40,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day04-基本数据结构/字典.py" />
-        <option value="$PROJECT_DIR$/Day04-基本数据结构/元组.py" />
         <option value="$PROJECT_DIR$/Day04-基本数据结构/练习1-字符串.py" />
         <option value="$PROJECT_DIR$/Day04-基本数据结构/exercise02-verification_code.py" />
         <option value="$PROJECT_DIR$/Day04-基本数据结构/string.py" />
@@ -123,15 +88,17 @@
         <option value="$PROJECT_DIR$/Day13-常见算法/动态规划.py" />
         <option value="$PROJECT_DIR$/Day16-协程(异步I/O).py" />
         <option value="$PROJECT_DIR$/Day13-常见算法/回溯算法.py" />
+        <option value="$PROJECT_DIR$/Day19-MySql和python/Python数据库编程.py" />
+        <option value="$PROJECT_DIR$/Day16-协程(异步I.O)/协程.py" />
         <option value="$PROJECT_DIR$/Day17-元编程和元类/ORM简单实现.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="87" />
-    <option name="y" value="61" />
-    <option name="width" value="1748" />
-    <option name="height" value="1087" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="178" />
+    <option name="y" value="42" />
+    <option name="width" value="1698" />
+    <option name="height" value="1079" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -188,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Peiqi">
+  <component name="RunManager" selected="Python.ORM简单实现">
     <configuration name="图像" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Project_100d" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -203,6 +170,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day12-图像和办公文档/图像.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ORM简单实现" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Project_100d" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day17-元编程和元类" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day17-元编程和元类/ORM简单实现.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,6 +236,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day01-环境搭建/Peiqi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python数据库编程" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Project_100d" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day19-MySql和python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day19-MySql和python/Python数据库编程.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -367,6 +378,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ORM简单实现" />
+        <item itemvalue="Python.Python数据库编程" />
         <item itemvalue="Python.Peiqi" />
         <item itemvalue="Python.处理PDF" />
         <item itemvalue="Python.图像" />
@@ -390,27 +403,30 @@
       <workItem from="1559274697797" duration="21615000" />
       <workItem from="1559361957817" duration="19097000" />
       <workItem from="1559456527748" duration="6441000" />
+      <workItem from="1559520660312" duration="6834000" />
+      <workItem from="1559618254439" duration="15359000" />
+      <workItem from="1559694044242" duration="682000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131367000" />
+    <option name="totallyTimeSpent" value="154242000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="49" width="1398" height="869" extended-state="0" />
+    <frame x="143" y="34" width="1358" height="863" extended-state="1" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15671642" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20769231" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.30736545" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3286119" />
-      <window_info anchor="bottom" id="Python Console" order="4" weight="0.14896552" />
+      <window_info anchor="bottom" id="Python Console" order="4" weight="0.42492917" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.24551724" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.16005665" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39970717" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -437,6 +453,7 @@
     <SUITE FILE_PATH="coverage/Python_Project_100d$_email.coverage" NAME="网络应用开发-email Coverage Results" MODIFIED="1559215117722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day11-网络编程" />
     <SUITE FILE_PATH="coverage/Python_Project_100d$Pygame_.coverage" NAME="Pygame-大球吃小球 Coverage Results" MODIFIED="1559050887797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day07-GUI和游戏" />
     <SUITE FILE_PATH="coverage/Python_Project_100d$Pygame.coverage" NAME="Pygame模块 Coverage Results" MODIFIED="1559049963954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day07-GUI和游戏" />
+    <SUITE FILE_PATH="coverage/Python_Project_100d$Python.coverage" NAME="Python数据库编程 Coverage Results" MODIFIED="1559643855142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day19-MySql和python" />
     <SUITE FILE_PATH="coverage/Python_Project_100d$01_.coverage" NAME="应用场景01-多进程 Coverage Results" MODIFIED="1559132622705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day10-进程和线程" />
     <SUITE FILE_PATH="coverage/Python_Project_100d$01_QQ.coverage" NAME="练习01-匹配QQ Coverage Results" MODIFIED="1559113880614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/正则表达式" />
     <SUITE FILE_PATH="coverage/Python_Project_100d$exercise01_Compute_Cycle.coverage" NAME="exercise01-Compute Cycle Coverage Results" MODIFIED="1558961682237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day02-数据类型" />
@@ -444,47 +461,13 @@
     <SUITE FILE_PATH="coverage/Python_Project_100d$03_.coverage" NAME="练习03-拆分长字符串 Coverage Results" MODIFIED="1559123706222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/正则表达式" />
     <SUITE FILE_PATH="coverage/Python_Project_100d$lcm.coverage" NAME="lcm Coverage Results" MODIFIED="1558963271074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day03-循环结构/exercise02-gcd" />
     <SUITE FILE_PATH="coverage/Python_Project_100d$exercise01_isprime.coverage" NAME="exercise01-isprime Coverage Results" MODIFIED="1558962927606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day03-循环结构" />
+    <SUITE FILE_PATH="coverage/Python_Project_100d$ORM.coverage" NAME="ORM简单实现 Coverage Results" MODIFIED="1559651250018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day17-元编程和元类" />
     <SUITE FILE_PATH="coverage/Python_Project_100d$exercise03_judge_year.coverage" NAME="exercise03-judge year Coverage Results" MODIFIED="1558962137523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day02-数据类型" />
     <SUITE FILE_PATH="coverage/Python_Project_100d$exercise02_verification_code.coverage" NAME="exercise02-verification_code Coverage Results" MODIFIED="1559021875834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day04-基本数据结构" />
     <SUITE FILE_PATH="coverage/Python_Project_100d$.coverage" NAME="回溯算法 Coverage Results" MODIFIED="1559392920859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day13-常见算法" />
     <SUITE FILE_PATH="coverage/Python_Project_100d$04_.coverage" NAME="练习04-约瑟夫环 Coverage Results" MODIFIED="1559024513293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day04-基本数据结构" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day04-基本数据结构/练习04-约瑟夫环.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day06-面向对象进阶/进阶知识.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1744">
-          <caret line="169" column="23" lean-forward="true" selection-start-line="169" selection-start-column="23" selection-end-line="169" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day06-面向对象进阶/练习01-工资结算.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/tkinter/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="2357" column="48" lean-forward="true" selection-start-line="2357" selection-start-column="48" selection-end-line="2357" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/matplotlib/backends/backend_tkagg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1310655275/pygame/draw.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
@@ -681,13 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1310655275/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="4724" column="8" selection-start-line="4724" selection-start-column="8" selection-end-line="4724" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Anaconda/Lib/enum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -784,7 +760,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day14-类与类的关系/扑克游戏.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
+        <state relative-caret-position="2398">
           <caret line="110" selection-start-line="110" selection-end-line="110" />
           <folding>
             <element signature="e#102#131#0" expanded="true" />
@@ -792,18 +768,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day17-元编程和元类/元类和元编程.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    <entry file="file://D:/Anaconda/Lib/site-packages/pymysql/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-183">
+          <caret line="150" column="8" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/Lib/site-packages/pymysql/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="482" column="8" selection-start-line="482" selection-start-column="8" selection-end-line="482" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1310655275/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="180" column="4" selection-start-line="180" selection-start-column="4" selection-end-line="180" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day17-元编程和元类/ORM简单实现.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="96" column="37" lean-forward="true" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
+        <state relative-caret-position="88">
+          <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day17-元编程和元类/元类和元编程.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="264">
+            <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day16-协程(异步I.O)/协程.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day19-MySql和python/Python数据库编程.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2618">
+          <caret line="119" column="40" selection-start-line="119" selection-start-column="40" selection-end-line="119" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day18-数据库和python/基础知识.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
