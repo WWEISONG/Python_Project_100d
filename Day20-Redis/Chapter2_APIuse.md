@@ -70,8 +70,104 @@ getrange key start end
 1.字符串--内部编码
 
 ```
+字符串类型的内部编码有3种：
+int：8个字节的长整型
+embstr: 小于等于39个字节的字符串
+raw: 大于39个字节的字符串
+```
+
+2.哈希
+
+哈希类型是指键值本身又是一个键值对结构，形如value={{field1, value1}, ...}
 
 ```
+# 基础命令
+
+1. 设置值
+hset key field value
+2. 获取值
+hget key field value
+3. 删除field
+hdel key field [field...]
+hdel 会删除一个或多个field, 返回结果为成功删除field的个数
+4. 计算field个数
+hlen key
+5. 批量设置或获取field-value
+hmget key field [field...]
+hmset key field value [field value ...]
+6. 判断field是否存在
+hexists key field
+7. 获取所有的field
+hkeys key
+8. 获取所有value
+hvals key
+9. 获取所有的field-value
+hgetall key
+10. hincrby hincrbyfloat
+11. 计算value的字符串长度
+hstrlen key field
+```
+
+2.哈希---内部编码
+
+```
+ziplist 压缩列表：当哈希类型元素个数小于hash-max-ziplist-entries配置，默认是512个、同时所有值都小于hash-max-ziplist-value配置，默认64字节。Redis会使用ziplist作为哈希的内部实现，ziplist使用更加紧凑的结构实现多个元素的连续存储，所以在节省内存方面比hashtable更加优秀。
+
+hashtable 哈希表： 当哈希类型无法满足ziplist的条件时，Redis会使用hashtable作为哈希的内部实现，因为此时ziplist的读写效率会下降。而hashtable的读写时间复杂度O（1）
+```
+
+3.列表
+
+列表类型用来存储多个有序的字符串， 列表中的每个字符串称为元素。可以对列表两端插入和弹出，还可以获取指定范围的元素列表、获取指定索引下标的元素等。
+
+注意：列表类型有两个特点：第一、列表中的元素是有序的，这就意味着可以通过索引下标获取某个元素或者某个范围内的元素列表。第二、列表中的元素可以是重复的。
+
+```
+1. 从右边插入元素
+rpush key value [value ...]
+2. 从左向右获取列表的所有元素
+lrange key 0 -1
+3. 从左边插入元素
+lpush key value [value]
+4. 向某个元素前或者后插入元素
+linsert key before | after pivot value
+说明：linsert命令会从列表中找到等于pivot的元素，在其前before或者后after插入一个新的元素value。
+5. 获取指定范围内的元素列表
+lrange key start end
+说明：索引下标从左向右分别是0到N-1，但是从右到左分别是-1到-N
+注意：lrange中的end选项包含了自身。
+6. 获取列表指定索引下标的元素
+lindex key index
+7. 获取列表长度
+llen key
+8. 从左边删除
+lpop key
+9. 从右边删除
+rpop key
+10. 删除指定元素
+lrem key count value
+说明：count > 0从左到右，删掉最多count个元素
+count < 0从右到左，删掉最多count绝对值个元素
+count = 0 删除所有
+```
+
+使用场景：
+
+```
+1.消息队列 lpush+brpop：生产者客户端使用lpush从列表左侧插入元素，多个消费者客户端使用brpop阻塞式的抢列表尾部的元素。多个客户端保证了消费的负载均衡和高可用性。
+
+2.文章列表
+```
+
+4.集合
+
+使用场景
+
+```
+集合类型比较典型的使用场景是标签tag。例如一个用户可能对娱乐、体育比较感兴趣，另一个用户可以对历史、新闻比较感兴趣，这些兴趣点就是标签。
+```
+
+集合类型也是用来保存多个的字符串元素，但和列表类型不一样的是，集合中不允许有重复的元素，并且集合中的元素是无序的，不能通过索引下标获取元素。
 
 === 单线程架构 ===
 
